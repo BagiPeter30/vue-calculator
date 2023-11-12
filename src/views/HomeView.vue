@@ -39,6 +39,7 @@ function action(element)
 </script>
 
 <template>
+  
   <div class="bg-[#234] max-w-[650px] p-6 mx-auto mt-4 shadow-s shadow-slate-600 text-white font-bold text-xl">
     Matek Doga!
   </div>
