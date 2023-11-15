@@ -54,7 +54,7 @@ function action(element)
       <div class="p-5 mt-2 bg-slate-950 hover:bg-slate-700
        transition-all duration-200 text-white text-bold 
        cursor-pointer"
-       :class="{'bg-red-400' : ['+','=','-','*','/','C'].includes(element)}"
+       :class="{'bg-blue-400' : ['+','=','-','*','/','C'].includes(element)}"
         @click="action(element)">
         {{ element }}
       </div>
